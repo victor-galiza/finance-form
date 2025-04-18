@@ -20,8 +20,8 @@ body {
  main {
     display: grid;
     place-items: center;
-    min-height: 100vh; /* altura total da tela */
-    background-color: var(--default-color); /* cor do fundo da tela */
+    min-height: 100vh; 
+    background-color: var(--default-color); 
  }
  .formBox {
     place-items: center;
@@ -60,7 +60,7 @@ body {
  .action-link {
     text-decoration: none;
  }
-/* Aplicar no body e html */
+
 html, body {
     height: 100%;
     margin: 0;
@@ -69,14 +69,14 @@ html, body {
     flex-direction: column;
   }
   
-  /* Garante que o main ocupe o espaço necessário */
+  
   main {
     flex: 1;
   }
 
  /* Footer */
  .site-footer {
-    background-color: #66b84a; /* um tom mais escuro que #7ed957 */
+    background-color: #66b84a; 
     color: var(--text-color);
     padding: 20px 0;
     text-align: center;
