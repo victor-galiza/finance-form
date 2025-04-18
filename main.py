@@ -32,7 +32,7 @@ def successfulChange():
 
 @app.route('/')
 def index():
-    return redirect(url_for('login'))  # ou outra página
+    return redirect(url_for('login'))  
 
 # colocar site no ar
 if __name__ == "__main__":
